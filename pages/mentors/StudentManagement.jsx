@@ -20,17 +20,17 @@ const Students = () => {
       src: "/johan.png",
       name: "Sanjay Vishwkarma",
       position: "Vice Chair",
-      instagram: "https://www.instagram.com/harinarayan721?igsh=ZjE4OHRoYTJrbWN4",
-      linkedin: "http://www.linkedin.com/in/hari-narayan-629867248",
-      github: "https://github.com/Hari-with-an-i"
+      instagram: "https://www.instagram.com/__sanjay_hs?igsh=MWFzMXRnODhsbzFwOA==",
+      linkedin: "https://www.linkedin.com/in/sanjay-viswakarma-hs?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      github: "https://github.com/ima-a"
     },
     {
       src: "/abhinav2.png",
       name: "Nishanth Devabathini",
       position: "Vice chair",
-      instagram: "https://www.instagram.com/abhinav_m_rudra?igsh=MTQ1Z2I5YnRibXdq&utm_source=qr",
-      linkedin: "https://www.linkedin.com/in/abhinav-manoj-8ab8b1221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      github: "https://github.com/AbhinavRudra"
+      instagram: "https://www.instagram.com/nishanth_1812/",
+      linkedin: " https://www.linkedin.com/in/nishanthdevabathini/",
+      github: " https://github.com/Nishanth1812"
     },
     {
       src: "/ananthan.png",
@@ -52,17 +52,17 @@ const Students = () => {
       src: "/advyth1.png",
       name: "Petluri Sai Anand",
       position: "Web Master",
-      instagram: "https://www.instagram.com/advyth_vaman_akalankam/?igsh=MWwxNnkxY29rNXc0ZQ==",
-      linkedin: "https://www.linkedin.com/in/advyth-vaman-akalankam/",
-      github: "https://github.com/AdvythVaman05"
+      instagram: "https://www.instagram.com/saianand.petluri?igsh=MTR3dXczYTNweTBldw==",
+      linkedin: "https://www.linkedin.com/in/sai-anand-petluri-50194b333?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      github: "https://github.com/Anand9876"
     },
     {
       src: "/advyth1.png",
       name: "Govardhan Satya",
       position: "AI Lead",
-      instagram: "https://www.instagram.com/advyth_vaman_akalankam/?igsh=MWwxNnkxY29rNXc0ZQ==",
-      linkedin: "https://www.linkedin.com/in/advyth-vaman-akalankam/",
-      github: "https://github.com/AdvythVaman05"
+     instagram: "https://www.instagram.com/tycoongovardhan?igsh=cHlnbjg3MzUxeWoz",
+      linkedin: "https://www.linkedin.com/in/govardhan-satya-gadi-95803b216p",
+      github: "https://github.com/govardhansatya"
     },
       {
       src: "/advyth1.png",
@@ -102,9 +102,9 @@ const Students = () => {
       src: "/govardhan.jpeg",
       name: "Dande Mohith",
       position: "AI Co-Lead",
-      instagram: "https://www.instagram.com/tycoongovardhan?igsh=cHlnbjg3MzUxeWoz",
-      linkedin: "https://www.linkedin.com/in/govardhan-satya-gadi-95803b216p",
-      github: "https://github.com/govardhansatya"
+      instagram: "https://www.instagram.com/mohithzz_07?igsh=cHlnbjg3MzUxeWoz",
+      linkedin: "https://www.linkedin.com/in/mohith-dande-01b58a371?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      github: "https://github.com/Mohith1-stack"
     },
     {
       src: "/anirudh.png",
@@ -116,11 +116,11 @@ const Students = () => {
     },
     {
       src: "/karthik.jpg",
-      name: "Rajmoth Reddy Basireddy",
+      name: "B Rajmoth Reddy",
       position: "Core",
-      instagram: "https://www.instagram.com/karthikkishor_kk",
-      linkedin: "https://www.linkedin.com/in/karthikkishorkk/",
-      github: "https://github.com/karthikkishorkk"
+      instagram: "https://www.instagram.com/rajmohith_007",
+      linkedin: "https://www.linkedin.com/in/RAJMOHITH REDDY BASIREDDY /",
+      github: "https://github.com/rajmohith-reddy"
     },
 
     
