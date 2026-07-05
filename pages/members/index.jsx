@@ -35,8 +35,8 @@ const Members = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', padding: '20px', overflowY: 'scroll' }}>
-      <div style={{ marginBottom: '50px' }}>
+    <div className="inner-page">
+      <div className="inner-shell space-y-16">
         <motion.div
           ref={studentRef}
           initial="hidden"
@@ -45,8 +45,6 @@ const Members = () => {
         >
           <StudentManagement />
         </motion.div>
-      </div>
-      <div>
         <motion.div
           ref={facultyRef}
           initial="hidden"

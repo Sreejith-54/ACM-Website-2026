@@ -9,24 +9,24 @@ export default function StudentCard(props) {
     return (
         <AnimatePresence>
             <motion.div
-                animate={{ height: hover ? 260 : 240, scale: hover ? 1.1 : 1 }}
-                className="w-72 h-fit flex pb-6 justify-start items-center flex-col bg-slate-800 rounded-lg mt-24"
+                animate={{ y: hover ? -6 : 0, scale: hover ? 1.03 : 1 }}
+                className="relative mt-24 flex h-[270px] w-full max-w-[280px] flex-col items-center rounded-lg border border-white/10 bg-white/[0.06] px-4 pb-5 shadow-xl shadow-black/30"
                 onMouseEnter={() => { setHover(true); }}
                 onMouseLeave={() => { setHover(false); }}
             >
                 <Image
                     src={src}
                     alt={name}
-                    className="mt-[-100px] rounded-lg"
+                    className="mt-[-100px] h-[210px] w-[205px] rounded-lg object-cover shadow-2xl shadow-black/40"
                     style={imageStyle}
                     width={200} // Add appropriate width
                     height={200} // Add appropriate height
                 />
-                <p className="text-white text-xl mt-3">{name}</p>
-                <p className="text-slate-400 text-lg">{position}</p>
+                <p className="mt-4 max-w-full truncate text-center text-lg font-semibold text-white">{name}</p>
+                <p className="text-center text-sm font-medium text-accent">{position}</p>
                 <AnimatePresence>
                     {hover && (
-                        <motion.div className="text-white mt-3 flex">
+                        <motion.div className="mt-4 flex rounded-md bg-black/50 p-2 text-white">
                             <button className="active:scale-90 transition duration-150">
                                 <a href={instagram} target="_blank" rel="noreferrer">
                                     <Image

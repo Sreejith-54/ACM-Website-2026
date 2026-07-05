@@ -1,16 +1,18 @@
 import React from 'react'
 import StudentCard from "./StudentCard";
-import Image from "next/image";
 
 const StudentManagement = () => {
   return (
-    <div className='flex flex-col items-center backstudmanage'>
-      <div className='flex justify-center mb-20'>
-        <div className="faculty-header-dot h-6 w-3 mr-3 mt-[15px] bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
-        <div className='text-5xl font-bold text-center text-slate-100/80'>Student Management</div>
+    <section className="section-panel">
+      <div className="mb-20 text-center">
+        <div className="eyebrow">Student team</div>
+        <div className='text-4xl font-bold text-white md:text-5xl'>Student <span className="text-accent">Management</span></div>
+        <p className="mx-auto mt-4 max-w-2xl text-white/60">
+          Student leaders coordinating the chapter's technical and creative work.
+        </p>
       </div>
       <div className='flex justify-center'>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-32">
+        <div className="responsive-people-grid gap-y-24">
 
         <StudentCard 
             src="/adithya.png"
@@ -66,7 +68,7 @@ const StudentManagement = () => {
             name="Maanav Thalapilly"
             position="SIG CP Lead"
             linkedin = "https://www.linkedin.com/in/maanav-thalapilly-4718ab24a/"
-            Github = "https://github.com/MaanavT"
+            github = "https://github.com/MaanavT"
             instagram= "https://instagram.com/_maanav.mn_?utm_source=qr&igshid=YzU1NGVlODEzOA=="
             imageStyle={{ width: '205px', height: '219px' }}
           />
@@ -194,7 +196,7 @@ const StudentManagement = () => {
           /> */}
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

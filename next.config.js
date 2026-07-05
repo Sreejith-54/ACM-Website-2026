@@ -1,15 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  async rewrites() {
-    return [
-      {
-        source: '/students',
-        destination: '/pages/students/index.html',
-      },
-    ];
-  }
+  swcMinify: true
 };
 
 module.exports = nextConfig;

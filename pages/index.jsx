@@ -3,8 +3,15 @@ import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 import { fadeIn } from "../variants";
+import About from "./about";
+import Goals from "./goals";
+import Mentors from "./mentors";
+import Faculty from "./faculty";
+import Advisory from "./advisorycommittee";
+import Testimonials from "./testimonials";
+import Contact from "./contact";
 
-const Home = () => {
+const HomeHero = () => {
   return (
     <div className="bg-primary/60 h-full">
       {/* text */}
@@ -75,6 +82,46 @@ const Home = () => {
         </motion.div>
       </div>
     </div>
+  );
+};
+
+const Section = ({ id, children, className = "" }) => (
+  <section
+    id={id}
+    className={`relative min-h-screen overflow-hidden ${className}`}
+  >
+    {children}
+  </section>
+);
+
+const Home = () => {
+  return (
+    <>
+      <Section id="home" className="h-screen">
+        <HomeHero />
+      </Section>
+      <Section id="about">
+        <About />
+      </Section>
+      <Section id="goals">
+        <Goals />
+      </Section>
+      <Section id="mentors">
+        <Mentors />
+      </Section>
+      <Section id="faculty" className="overflow-visible">
+        <Faculty />
+      </Section>
+      <Section id="advisorycommittee">
+        <Advisory />
+      </Section>
+      <Section id="testimonials">
+        <Testimonials />
+      </Section>
+      <Section id="contact">
+        <Contact />
+      </Section>
+    </>
   );
 };
 

@@ -21,7 +21,7 @@ const Faculty = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', padding: '100px', overflowY: 'scroll' }}>
+    <div style={{ minHeight: '100vh', padding: '100px' }}>
       <div style={{ marginBottom: '50px' }}>
         <motion.div
           ref={facultyRef}

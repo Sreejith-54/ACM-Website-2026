@@ -1,7 +1,5 @@
 import React from 'react';
-import { Box, Grid, Flex } from '@chakra-ui/react';
 import FacultyCards from "./FacultyCards";
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
@@ -49,62 +47,34 @@ const FacultyManagement = () => {
     }
   ];
 
-  const renderCards = () => {
-    return facultyCards.map((faculty, index) => (
-      <Box key={index} p={4}>
-        <FacultyCards
-          src={faculty.src}
-          name={faculty.name}
-          position={faculty.position}
-          width={235}
-          height={235}
-          alignRight={false}
-        />
-      </Box>
-    ));
-  };
-
   return (
-    <Flex flexDirection="column" alignItems="center" className='backfacultymanage'>
-      <Flex justifyContent="center" mb={3} pb={1} className="faculty-header">
+    <section className="section-panel">
+      <div className="mb-10 text-center">
+        <div className="eyebrow">Faculty</div>
         <motion.h2
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 xl:mt-0"
+          className="h2 mb-3"
         >
           <span className="text-accent">Faculty </span> Management
         </motion.h2>
-      </Flex>
-      <Box
-        width="100%"
-        overflowY="auto"
-        height={{ base: '50vh', lg: '75vh' }}
-        className="faculty-body"
-        pb={150} // Adding padding at the bottom to ensure all cards are fully visible
-        css={{
-          '&::-webkit-scrollbar': {
-            width: '12px',
-          },
-          '&::-webkit-scrollbar-track': {
-            background: '#4a4aa2',
-          },
-          '&::-webkit-scrollbar-thumb': {
-            background: '#393970',
-            borderRadius: '20px',
-            border: '3px solid #1a1a2e',
-          },
-          '&::-webkit-scrollbar-thumb:hover': {
-            background: '#80fffb',
-          },
-        }}
-      >
-        <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={5}>
-          {renderCards()}
-        </Grid>
-      </Box>
-    </Flex>
+        <p className="mx-auto max-w-2xl text-white/60">
+          Faculty mentors supporting ACM Amritapuri across research, events, and student initiatives.
+        </p>
+      </div>
+      <div className="responsive-people-grid xl:grid-cols-3">
+        {facultyCards.map((faculty, index) => (
+          <FacultyCards
+            key={index}
+            src={faculty.src}
+            name={faculty.name}
+            position={faculty.position}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
 

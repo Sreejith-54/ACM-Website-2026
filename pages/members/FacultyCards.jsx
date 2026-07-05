@@ -1,17 +1,17 @@
 import Image from "next/image";
 
 export default function FacultyCards(props) {
-    const { src, name, position, mg, width, height } = props;
+    const { src, name, position } = props;
 
     return (
         <div
-            className={`sm:w-52 md:w-60 lg:w-52 xl:w-64 xl:h-80 2xl:w-72 2xl:h-80 flex justify-start items-center flex-col ${mg}`}
+            className="flex h-[320px] w-full max-w-[270px] flex-col items-center overflow-hidden rounded-lg border border-white/10 bg-white/[0.06] p-3 shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-1 hover:border-accent/60 hover:bg-accent/10"
         >
-            <Image src={src} alt={name} width={width} height={height} />
-            <p className="text-white sm:text-md md:text-lg lg:text-xl xl:text-2xl mt-3 whitespace-nowrap">
+            <Image src={src} alt={name} width={240} height={220} className="h-[220px] w-full rounded-md object-cover" />
+            <p className="mt-4 max-w-full truncate text-center text-lg font-semibold text-white">
                 {name}
             </p>
-            <p className="text-slate-400 sm:text-sm md:text-md lg:text-lg xl:text-xl whitespace-nowrap">
+            <p className="text-center text-sm font-medium text-accent">
                 {position}
             </p>
         </div>

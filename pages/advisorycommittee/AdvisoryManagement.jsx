@@ -1,7 +1,5 @@
 import React from 'react';
-import { Box, Grid, Flex } from '@chakra-ui/react';
 import AdvisoryCard from "./AdvisoryCard";
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
@@ -53,64 +51,35 @@ const Advisory = () => {
 
   ];
 
-  const renderCards = () => {
-    return AdvisoryCards.map((student, index) => (
-      <Box key={index} p={4}>
-        <AdvisoryCard
-          src={student.src}
-          name={student.name}
-          linkedin={student.linkedin}
-          github={student.github}
-          width={225}
-          height={225}
-          alignRight={false}
-        />
-      </Box>
-    ));
-  };
-
   return (
-    <Flex flexDirection="column" alignItems="center" className='backstudmanage'>
-      <Flex justifyContent="center" mb={3} pb={1} className="faculty-header">
+    <section className="section-panel">
+      <div className="mb-10 text-center">
+        <div className="eyebrow">Guidance</div>
         <motion.h2
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 xl:mt-0"
+          className="h2 mb-3"
         >
           <span className="text-accent">Alumni </span> Advisory
         </motion.h2>
-      </Flex>
-      <Box
-        width="100%"
-        overflowY="auto"
-        height={{ base: '50vh', lg: '64vh' }}
-        className="backstudmanage"
-        pb={50} // Adding padding at the bottom to ensure all cards are fully visible
-        css={{
-          '&::-webkit-scrollbar': {
-            width: '10px',
-            height: '10px',
-          },
-          '&::-webkit-scrollbar-track': {
-            background: '#4a4aa2',
-          },
-          '&::-webkit-scrollbar-thumb': {
-            background: '#393970',
-            borderRadius: '20px',
-            border: '3px solid #1a1a2e',
-          },
-          '&::-webkit-scrollbar-thumb:hover': {
-            background: '#80fffb',
-          },
-        }}
-      >
-        <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(4, 1fr)' }} gap={5}>
-          {renderCards()}
-        </Grid>
-      </Box>
-    </Flex>
+        <p className="mx-auto max-w-2xl text-white/60">
+          Alumni mentors who help the chapter sharpen projects, events, and student growth.
+        </p>
+      </div>
+      <div className="responsive-people-grid">
+        {AdvisoryCards.map((student, index) => (
+          <AdvisoryCard
+            key={index}
+            src={student.src}
+            name={student.name}
+            linkedin={student.linkedin}
+            github={student.github}
+          />
+        ))}
+      </div>
+    </section>
   );
 }
 

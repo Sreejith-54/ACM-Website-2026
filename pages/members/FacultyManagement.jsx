@@ -2,13 +2,15 @@ import FacultyCards from "./FacultyCards";
 
 export default function FacultyManagement() {
     return (
-        <>
-            <div className="faculty-header mt-[70px] flex justify-center items-center pt-5 pb-1">
-                <div className="faculty-header-dot h-6 w-2 mr-2 bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
-                <h1 className="text-5xl text-white"><b>Faculty Management</b></h1>
+        <section className="section-panel">
+            <div className="mb-10 text-center">
+                <div className="eyebrow">Faculty team</div>
+                <h1 className="text-4xl font-bold text-white md:text-5xl">Faculty <span className="text-accent">Management</span></h1>
+                <p className="mx-auto mt-4 max-w-2xl text-white/60">
+                    Faculty mentors guiding ACM activities, events, and student projects.
+                </p>
             </div>
-            <div className="faculty-body mt-10 w-[100%]">
-                <div className="faculty-row-1 flex justify-center items-center flex-wrap">
+            <div className="responsive-people-grid xl:grid-cols-3">
                     <FacultyCards
                         src="/Binupk.jpg"
                         name="Mr.P.K Binu"
@@ -33,8 +35,6 @@ export default function FacultyManagement() {
                         width={200}  // Adjust width as necessary
                         height={300} // Adjust height as necessary
                     />
-                </div>
-                <div className="faculty-row-1 flex justify-center items-center flex-wrap">
                     <FacultyCards
                        src="/Geethamam.jpg"
                         name="Dr. Geetha M"
@@ -59,9 +59,8 @@ export default function FacultyManagement() {
                         width={200}  // Adjust width as necessary
                         height={300} // Adjust height as necessary
                     />
-                </div>
             </div>
-        </>
+        </section>
     );
 }
 
