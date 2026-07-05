@@ -8,7 +8,7 @@ import { fadeIn } from "../../variants";
 const Students = () => {
   const studentCards = [
     {
-      src: "/anashwara.png",
+      src: "/anashwara.jpeg",
       name: "Anaswara A",
       position: "Chair",
       instagram: "https://www.instagram.com/anaswara_ani1?igsh=MXU5NWRranN1bXc5MQ==",
@@ -36,9 +36,9 @@ const Students = () => {
       src: "/ananthan.png",
       name: "Punith Sai",
       position: "Treasurer",
-      instagram: "https://www.instagram.com/ananth_akrishnan_/",
-      linkedin: "https://www.linkedin.com/in/ananthakrishnan-s-997819313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      github: "https://github.com/ArjunAk1234"
+      instagram: "https://www.instagram.com/punit_279_/",
+      linkedin: " https://www.linkedin.com/in/punit-raveendran-805407321",
+      github: "https://github.com/PunitRaveendran"
     },
     {
       src: "/keerthana.png",
@@ -85,9 +85,9 @@ const Students = () => {
       src: "/abhinavglitch.jpeg",
       name: "Mounish M",
       position: "Glitch Lead",
-      instagram: "https://www.instagram.com/abhinav_g_nair?igsh=MTM1b3Jsbm8yOXBrag==",
-      linkedin: "https://www.linkedin.com/in/abhinav-g-nair-a353892b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      github: "https://github.com/Absguy"
+      instagram: "https://www.instagram.com/Moun7sh?igsh=MTM1b3Jsbm8yOXBrag==",
+      linkedin: "https://www.linkedin.com/in/Mounish talluru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "https://github.com/Moun7sh"
     },
  
     {
