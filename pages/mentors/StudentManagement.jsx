@@ -90,11 +90,11 @@ const Students = () => {
  
     {
       src: "/anashwara.jpeg",
-      name: "Poonghozali",
+      name: "Poonguzhali Kathiravan",
       position: "Cyber Co-Lead",
-      instagram: "https://www.instagram.com/anaswara_ani1?igsh=MXU5NWRranN1bXc5MQ==",
-      linkedin: "https://www.linkedin.com/in/anaswara-anil-2403b3282/",
-      github: " https://github.com/Atrnl"
+      instagram: "https://www.instagram.com/kuzhalikathiravan?igsh=MXU5NWRranN1bXc5MQ==",
+      linkedin: "https://www.linkedin.com/in/poonguzhali-k-8804b9401?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      github: " https://github.com/poonguzhali20"
     },
     {
       src: "/govardhan.jpeg",
