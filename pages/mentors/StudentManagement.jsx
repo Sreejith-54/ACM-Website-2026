@@ -125,11 +125,11 @@ const Students = () => {
  
   {
       src: "/karthik.jpg",
-      name: "Semin A",
+      name: "Semin Pallivathuckal Achankunju",
       position: "Core",
-      instagram: "https://www.instagram.com/karthikkishor_kk",
-      linkedin: "https://www.linkedin.com/in/karthikkishorkk/",
-      github: "https://github.com/karthikkishorkk"
+      instagram: "https://www.instagram.com/verum_semin?igsh=OGZ2M3l1YTZlMGxk",
+      linkedin: "https://www.linkedin.com/in/semin-achankunju-2536582ba?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      github: "https://github.com/smnachankunju"
     },
     {
       src: "/anirudh.png",
