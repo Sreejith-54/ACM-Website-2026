@@ -15,7 +15,7 @@ const Students = () => {
     },
    
     {
-      src: "/johan.png",
+      src: "/sanjayvishw.png",  
       name: "Sanjay Vishwkarma",
       position: "Vice Chair",
       instagram: "https://www.instagram.com/__sanjay_hs?igsh=MWFzMXRnODhsbzFwOA==",
@@ -23,7 +23,7 @@ const Students = () => {
       github: "https://github.com/ima-a"
     },
     {
-      src: "/abhinav2.png",
+      src: "/nishanthdeva.png",
       name: "Nishanth Devabathini",
       position: "Vice chair",
       instagram: "https://www.instagram.com/nishanth_1812/",
@@ -31,7 +31,7 @@ const Students = () => {
       github: " https://github.com/Nishanth1812"
     },
     {
-      src: "/ananthan.png",
+      src: "/punit.jpeg",
       name: "Punith Sai",
       position: "Treasurer",
       instagram: "https://www.instagram.com/punit_279_/",
@@ -39,7 +39,7 @@ const Students = () => {
       github: "https://github.com/PunitRaveendran"
     },
     {
-      src: "/keerthana.png",
+      src: "/sreelaya.jpeg",
       name: "Sreelaya Vinod",
       position: "Secretary & Media Lead",
       instagram: "https://www.instagram.com/__keerthana.gz?igsh=MTV6ZTQxZGszMmdjMg==",
@@ -47,7 +47,7 @@ const Students = () => {
       github: "https://github.com/KeerthanaG2"
     },
      {
-      src: "/advyth1.png",
+      src: "/sai anand.jpeg",
       name: "Petluri Sai Anand",
       position: "Web Master",
       instagram: "https://www.instagram.com/saianand.petluri?igsh=MTR3dXczYTNweTBldw==",
@@ -55,7 +55,7 @@ const Students = () => {
       github: "https://github.com/Anand9876"
     },
     {
-      src: "/advyth1.png",
+      src: "/govardhan.jpeg",
       name: "Govardhan Satya",
       position: "AI Lead",
      instagram: "https://www.instagram.com/tycoongovardhan?igsh=cHlnbjg3MzUxeWoz",
@@ -63,7 +63,7 @@ const Students = () => {
       github: "https://github.com/govardhansatya"
     },
       {
-      src: "/advyth1.png",
+      src: "/tenisha.jpeg",
       name: "Tenisha",
       position: "Cyber Lead",
       instagram: "https://www.instagram.com/advyth_vaman_akalankam/?igsh=MWwxNnkxY29rNXc0ZQ==",
@@ -72,7 +72,7 @@ const Students = () => {
     },
 
     {
-      src: "/shyam.png",
+      src: "/sreejith.jpeg",
       name: "Sreejith M",
       position: "Web & App Dev Lead",
       instagram: "https://www.instagram.com/ghanasyaaam?igsh=MTg5MWpnNjJnajRjbg==",
@@ -80,7 +80,7 @@ const Students = () => {
       github: "https://github.com/ghanasyaam"
     },
     {
-      src: "/abhinavglitch.jpeg",
+      src: "/mounish.jpeg",
       name: "Mounish M",
       position: "Glitch Lead",
       instagram: "https://www.instagram.com/Moun7sh?igsh=MTM1b3Jsbm8yOXBrag==",
@@ -89,7 +89,7 @@ const Students = () => {
     },
  
     {
-      src: "/anashwara.jpeg",
+      src: "/poonkuzhali.jpeg",
       name: "Poonguzhali Kathiravan",
       position: "Cyber Co-Lead",
       instagram: "https://www.instagram.com/kuzhalikathiravan?igsh=MXU5NWRranN1bXc5MQ==",
@@ -97,7 +97,7 @@ const Students = () => {
       github: " https://github.com/poonguzhali20"
     },
     {
-      src: "/govardhan.jpeg",
+      src: "/dande mohit.jpeg",
       name: "Dande Mohith",
       position: "AI Co-Lead",
       instagram: "https://www.instagram.com/mohithzz_07?igsh=cHlnbjg3MzUxeWoz",
@@ -105,7 +105,7 @@ const Students = () => {
       github: "https://github.com/Mohith1-stack"
     },
     {
-      src: "/anirudh.png",
+      src: "/meera.jpeg",
       name: "Meera Krishna",
       position: "Web Dev Co-Lead",
       instagram: "https://www.instagram.com/anirudhsuresh05?igsh=d3p3MDM0cjJwaDhp",
@@ -124,7 +124,7 @@ const Students = () => {
     
  
   {
-      src: "/karthik.jpg",
+      src: "/semin.jpeg",
       name: "Semin Pallivathuckal Achankunju",
       position: "Core",
       instagram: "https://www.instagram.com/verum_semin?igsh=OGZ2M3l1YTZlMGxk",
